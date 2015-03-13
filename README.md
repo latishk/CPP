@@ -97,9 +97,14 @@ g++ -o lloyd lloyd.cpp
 g++ -o vclock vclock.cpp
 Run using:
 ./clock 12 (Hours on Clock) 1 (Current Time on clock) 4(Actual Time) 
+
 ./water 11(goal) 3 5 7 13 (the rest are the arguments of the capacities of the container in this example it has four containers of 3,5,7,13 )
+
 ./lloyd - - (input and output both on the console)
+
 ./lloyd - filename (input from console and output to external file)
+
 ./lloyd Inputfilename Outputfilename (input from the file e.g.lloyd1.in, lloyd2.in, lloyd3.in and output to any file e.g output.txt, output.in etc )
+
 ./vclock 6(hours on the clock can be any value u desire) 3 (current) 7(goal) 2 -2 1 -1 (rest are the values by which you can rotate the clock if its positive then clockwise negative : anti clockwise ) 
 
